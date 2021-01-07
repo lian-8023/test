@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no,email=no,address=no">  
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="description" content="PORTAL" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/cp-repaymentList.css">
+    <link rel="stylesheet" href="/js/source/jqueryPagination/css/pagination.css">
+    <title>PORTAL</title>
+</head>
+<body>
+    <!-- 第三方列表 -->
+    <div class="THcontent hidden">  
+            <div class="bar">
+                    <table class="repayment-list layout-fixed">
+                        <thead>
+                            <tr class="th-bg">
+                                 <th width="5%">还款期数</th>
+                                 <th width="5%">还款总额</th>
+                                 <th width="5%">还款本金</th>
+                                 <th width="5%">还款利息</th>
+                                 <th width="5%">其它金额</th>
+                                 <th width="5%">滞纳金</th>
+                                 <th width="5%">服务费</th>
+                                 <th width="5%">剩余本息</th>
+                                 <th width="10%">原始还款日</th>
+                                 <th width="10%">实际还款日</th>
+                                 <th width="10%">起息日</th>
+                                 <th width="5%">违约天数</th>
+                                 <th width="10%">违约减免天数</th>
+                                 <th width="5%">代扣状态</th>
+                                 <th width="5%">代扣次数</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr><td colSpan="15" class="gray-tip-font dataTip">加载中...</td></tr>
+                        </tbody>
+                    </table>
+                    <div class="th-bg pl20 pt5 pb5 clearfix">
+                        <b class="left pr20" style="font-size:14px">创建日期：<span class="createdTime"></span></b>
+                        <div class="right page-ation"><!-- 页码 --></div>
+                    </div>
+                </div>
+    </div>
+    <!-- 平台渲染 -->
+    <div class="PFcontent">
+        <div class="bar">
+                <table class="repayment-list layout-fixed">
+                    <thead>
+                        <tr class="th-bg">
+                             <th width="15%">当期总金额</th>
+                             <th width="15%">还款日</th>
+                             <th width="15%">起息日</th>
+                             <th width="10%">第几期</th>
+                             <th width="10%">当期利息</th>
+                             <th width="10%">剩余本金</th>
+                             <th width="10%">当期本金</th>
+                             <th width="10%">服务费</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr><td colSpan="12" class="gray-tip-font dataTip">加载中...</td></tr>
+                    </tbody>
+                </table>
+                <div class="th-bg pl20 pt5 pb5 clearfix">
+                    <b class="left pr20" style="font-size:14px">创建日期：<span class="createdTime"></span></b>
+                    <div class="right page-ation"><!-- 页码 --></div>
+                </div>
+            </div>
+    </div>
+    <script src="/js/source/main/jquery.1.9.1.min.js" type="text/javascript"></script>
+	<script src="/js/source/htmlCommon.js?V{{version}}" type="text/javascript"></script>
+    <script src="/js/source/singleCommon.js?V{{version}}" type="text/javascript"></script>
+    <script src="/js/source/cp-repaymentList.js?V{{version}}" type="text/javascript"></script>
+    <script src="/js/source/jqueryPagination/js/pagination.min.js?V{{version}}" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no,email=no,address=no">  
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="description" content="PORTAL" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/cp-repaymentList.css">
+    <link rel="stylesheet" href="/js/source/jqueryPagination/css/pagination.css">
+    <title>PORTAL</title>
+</head>
+<body>
+    <!-- 合作方portal 扣款列表 -->
+    <div class="THcontent">  
+        <div class="d-cont">
+            <div class="deb-top list-head">
+                <ul class="list-tit debetting pr18">
+                    <li>期数</li>
+                    <li>设置日期</li>
+                    <li>还款日</li>
+                    <li>金额</li>
+                    <li>本金</li>
+                    <li>利息</li>
+                    <li>展期费</li>
+                    <li>逾期天数</li>
+                    <li>扣款渠道</li>
+                    <li>失败原因</li>
+                    <li>操作人</li>
+                    <li>服务费</li>
+                    <li>逾期费</li>
+                    <li>罚息</li>
+                    <li>付清状态</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <div class="list-content debetting-cont"><!-- 扣款列表内容 --></div>
+            <div class="deb-bottom">
+                <div class="page-ation"><!-- 扣款列表页码 --></div>
+            </div>
+        </div>
+        <!-- 详情弹窗 -->
+        <div class="detail_pop hidden">
+            <div class="tanc_bg"></div>
+            <div class="record-detail">
+                <table class="pt-table" width="100%" border="0" cellPadding="0" cellSpacing="0" frameBorder="0">
+                    <tbody>
+                        <tr>
+                            <th width="10%"></th>
+                            <th width="10%">本金</th>
+                            <th width="10%">利息</th>
+                            <th width="10%">期数</th>
+                            <th width="10%">日期</th>
+                            <th width="10%">服务费</th>
+                            <th width="10%">逾期费</th>
+                            <th width="10%">罚息</th>
+                            <th width="10%">违约金</th>
+                            <th width="10%"><i class="close" onClick="close_detail();"></i></th>
+                        </tr>
+                        <tr class="start-tr">
+                            <td colSpan="11" class="wraper-cash"></td>
+                        </tr>
+                        <!-- == add tr = -->
+                        <tr>
+                            <td>总</td>
+                            <td class="all-principal"></td>
+                            <td class="all-interest"></td>
+                            <td class="期数"></td>
+                            <td class="日期"></td>
+                            <td class="all-serverce"></td>
+                            <td class="all-latefee"></td>
+                            <td class="all-default-interest"></td>
+                            <td class="all-penalty"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="/js/source/main/jquery.1.9.1.min.js" type="text/javascript"></script>
+	<script src="/js/source/htmlCommon.js?V{{version}}" type="text/javascript"></script>
+    <script src="/js/source/singleCommon.js?V{{version}}" type="text/javascript"></script>
+    <script src="/js/source/cp-withholdList.js?V{{version}}" type="text/javascript"></script>
+    <script src="/js/source/jqueryPagination/js/pagination.min.js?V{{version}}" type="text/javascript"></script>
+</body>
+</html>

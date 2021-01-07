@@ -1,0 +1,17 @@
+bin/
+target
+.class
+.classpath
+.project
+*.prefs
+*.log
+.idea/
+*.iml
+
+.git
+.scannerwork
+.vscode
+*.map
+*.properties
+node_modules
+tsconfig.json

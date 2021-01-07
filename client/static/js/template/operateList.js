@@ -1,0 +1,42 @@
+// 小雨花 订单审核 操作记录
+const OperateListTemp={
+    'checkQueue':{
+        checkTableData:[
+            {title:'处理结果',key:'contactResult',width:'20%',caseContentKey:'content'},
+            {title:'商户课程存疑',key:'standby2',width:'20%'},
+            {title:'提交时间',key:'createdAt',width:'20%'},            
+            {title:'审核时间',key:'updatedAt',width:'20%'},
+            {title:'审核人',key:'createdBy',width:'10%'},
+        ],
+        'oprateTableData':[
+            {title:'处理结果',key:'operateType',width:'45%'},
+            {title:'提交时间',key:'operateTime',width:'45%'},
+            {title:'提交时间',key:'operateRemark',operateRemark:'operateRemark'},
+        ]
+    },
+    'businessCheck':{
+        checkTableData:[
+            {title:'处理结果',key:'afterQueueStatus',width:'20%',caseContentKey:'content'},
+            {title:'提交时间',key:'submitTime',width:'20%'},
+            {title:'审核时间',key:'createdAt',width:'20%'},
+            {title:'审核人',key:'createdBy',width:'10%'},
+        ],
+        'oprateTableData':[
+            {title:'案件记录',key:'operTypeDesc',width:'45%'},
+            {title:'操作时间',key:'operateTime',width:'45%'},
+        ]
+    },
+    'shopcheck':{
+        checkTableData:[
+            {title:'处理结果',key:'afterQueueStatus',width:'20%',caseContentKey:'content'},
+            {title:'提交时间',key:'submitTime',width:'20%'},
+            {title:'审核时间',key:'createdAt',width:'20%'},
+            {title:'审核人',key:'createdBy',width:'10%'},
+        ],
+        'oprateTableData':[
+            {title:'案件记录',key:'operateTypeDesc',width:'45%'},
+            {title:'操作时间',key:'operateTimeStr',width:'45%'},
+        ]
+    }
+}
+export default OperateListTemp;

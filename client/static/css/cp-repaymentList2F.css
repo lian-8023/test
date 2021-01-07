@@ -1,0 +1,40 @@
+.THcontent{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid #dcdcdc;
+    min-height: 90vh;
+    border-radius: 5px;
+}
+.THcontent h2{
+    line-height: 40px;
+    padding-left: 10px;
+    background: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.THcontent .outTable{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+table.outTable th{
+    text-align: center;
+    height: 40px;
+    background: #f7f6f6;
+}
+table.outTable td{
+    text-align: center;
+    height: 50px;
+}
+.childTbale{
+    width:100%
+}
+.childTbale td{
+    background: #f7f6f6;
+}
+
+.hide{
+    display: none;
+}

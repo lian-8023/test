@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no,email=no,address=no">  
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+	<script src="/js/source/main/jquery.1.9.1.min.js" type="text/javascript"></script>
+	<script src="/js/source/main/d3.min.js" type="text/javascript"></script><!-- 数据可视化D3 -->
+	<script src="/js/source/main/neo4jd3.js" type="text/javascript"></script><!-- 数据可视化neo4jd3 -->
+	<link rel="stylesheet" href="/js/source/main/neo4jd3.min.css">
+	<script type="text/javascript" src="/js/source/main/keyUpVerify.js"></script>  <!-- input keyup 验证 -->
+	<!-- 800电话加密 -->
+	<script src="/js/source/main/3des.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="cp-index" style="min-width:1349px">
+		<!--合作方react 组件-->
+	</div>
+	<script type="text/javascript">
+		// 解决ie不兼容startsWith方法
+		if (typeof String.prototype.startsWith != 'function') {  
+			String.prototype.startsWith = function (prefix){  
+			return this.slice(0, prefix.length) === prefix;  
+			};  
+		} 
+	</script>
+
+	<script src="/js/source/htmlCommon.js?V{{version}}" type="text/javascript"></script>
+	<script src='/build/commons.chunk.js?V{{version}}' type="text/javascript"></script>
+	<script src='/build/cp-main.bundle.js?V{{version}}' type="text/javascript"></script>
+	<!-- <script src="http://10.244.76.11:9056/buildMenu.js" type="text/javascript"></script> -->
+</body>
+</html>

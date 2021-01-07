@@ -1,0 +1,4 @@
+项目分为内部portal（portal） 和 合作方portal（cp-portal）两个部分；
+webpack分别打包两块代码，分别为main.bundle.js 和cp-main.bundle.js，主页面分别单独引入；
+主页面分别为main.html 和cp-main.html，入口文件分别为entry 和 cp-entry，菜单文件分别为menu 和cp-menu；
+queue文件夹放内部portal queue组件，cp-portal文件夹放合作方queue 组件；
